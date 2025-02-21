@@ -84,6 +84,7 @@ function BannerCarousel({ items }) {
           alt='banner'
           width={{ xs: '100%' }}
           display={'flex'}
+          flex={{ xs: '1 0 100%', lg: '1 0 50%' }}
           alignItems={'center'}
           justifyContent={'center'}
           sx={{
